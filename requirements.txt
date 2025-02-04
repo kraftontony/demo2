@@ -1,5 +1,5 @@
 streamlit-option-menu
 numpy 
-pickle
+pickle-mixin
 streamlit
 
