@@ -8,11 +8,14 @@ import numpy as np
 
 # loading the saved models
 
-diabetes_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open(r'diabetes_model.sav', 'rb'))
+# diabetes_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open(r'heart_disease_model.sav', 'rb'))
+# heart_disease_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(r'parkinsons_model.sav', 'rb'))
+# parkinsons_model = pickle.load(open(r'C:\Users\Dell\Desktop\Multiple diseases prediction outbreaks\saved_models\parkinsons_model.sav', 'rb'))
 
 
 with st.sidebar:
